@@ -1,0 +1,8 @@
+name: TimedGroup
+main: vip.ourcraft.mcserverplugins.timedgroup.TimedGroup
+author: July_ss
+version: 1.0.0
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+commands:
+  tg:

@@ -1,0 +1,4 @@
+current_group: 'fly'
+owned_vip_groups:
+  'fly':
+    expired_time: 154544544554
