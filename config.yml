@@ -1,8 +1,10 @@
 default_group_name: builder
 groups:
-  builder:
+  'builder':
     chinese_name: '玩家'
-    per_group_name: 'builder'
-  fly:
+  'fly':
     chinese_name: '飞行'
-    per_group_name: 'fly'
+    is_fly_group: true
+permissions:
+  'essentials.hat':
+    chinese_name: '佩戴'
