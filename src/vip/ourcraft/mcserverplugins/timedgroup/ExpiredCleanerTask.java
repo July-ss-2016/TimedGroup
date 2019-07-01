@@ -14,6 +14,10 @@ public class ExpiredGroupCleanerTask implements Runnable {
     @Override
     public void run() {
         for (Player player : Bukkit.getOnlinePlayers()) {
+            if (!player.isOnline()) {
+                continue;
+            }
+
             GroupPlayer groupPlayer = groupPlayerManager.getGroupPlayer(player);
 
             for (PlayerOwnedGroup playerOwnedGroup : groupPlayer.getOwnedGroups()) {
